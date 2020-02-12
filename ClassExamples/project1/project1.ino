@@ -2,8 +2,14 @@ int light1 = 2;
 int light2 = 3;
 int boat1 = 4;
 
+int counter = 0;
+
+boolean flipflop = false;
+
 void setup() {
   // put your setup code here, to run once:
+  Serial.begin(9600);
+  
   pinMode(light1, OUTPUT);
   pinMode(light2, OUTPUT);
   pinMode(boat1, OUTPUT);
@@ -11,16 +17,33 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(light1, HIGH);
+
+  if(flipflop = false){
+    counter++;
+  }else{
+    counter--;
+  }
+
+  if(counter >= 255){
+    flipflop = true;
+  }
+
+  if(counter <= 0){
+    flipflop = false;
+  }
+
+  Serial.println(counter);
+
+  analogWrite(light1, HIGH);
   delay(1500);
-  digitalWrite(light2, HIGH);
+  analogWrite(light2, HIGH);
   delay(1500);
-  digitalWrite(light1, LOW);
+  analogWrite(light1, LOW);
   delay(200);
-  digitalWrite(light2, LOW);
+  analogWrite(light2, LOW);
   delay(200);
-  digitalWrite(boat1, HIGH);
+  analogWrite(boat1, HIGH);
   delay(500);
-  digitalWrite(boat1, LOW);
+  analogWrite(boat1, LOW);
   delay(500);
 }

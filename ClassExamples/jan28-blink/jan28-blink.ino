@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(ledpin, HIGH);
-  delay(time1);
+  delay(time1); //milisecond
   digitalWrite(ledpin, LOW);
   delay(time1);
   digitalWrite(ledpin, HIGH);
