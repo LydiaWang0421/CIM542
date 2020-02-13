@@ -7,7 +7,7 @@ boolean flipflop = false;
 void setup() {
   // put your setup code here, to run once:
 
-  Serial.begin(9600); 
+  Serial.begin(9600);
   //opens the serial port, sets the speed of communication to 9600 buad or bps
   pinMode(ledpin, OUTPUT);
 
@@ -31,7 +31,7 @@ void loop() {
   }else{
     counter = counter - 1;
   }
-  
+
   if(counter >= 255){
     //counter = 0;
     flipflop = true;
@@ -40,7 +40,7 @@ void loop() {
   if(counter <= 0){
     flipflop = false;
   }
-  
+
   Serial.println(counter);
   analogWrite(ledpin, counter);
   delay(10);
