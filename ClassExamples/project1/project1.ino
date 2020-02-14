@@ -42,19 +42,6 @@ void loop() {
     counter++;
   }
 
-    if(flipflop = false){
-    counter++;
-  }else{
-    counter--;
-  }
-
-  if(counter >= 255){
-    flipflop = true;
-  }
-
-  if(counter <= 0){
-    flipflop = false;
-  }
 
   Serial.print("counter");
   Serial.print(counter);
@@ -62,31 +49,31 @@ void loop() {
   Serial.println();
 
   if(counter == 0){
-    analogWrite(light1, LOW);
-    analogWrite(light2, LOW);
-    analogWrite(boat1, LOW);
-    analogWrite(boat2, LOW);
+    digitalWrite(light1, LOW);
+    digitalWrite(light2, LOW);
+    digitalWrite(boat1, LOW);
+    digitalWrite(boat2, LOW);
   }else if(counter == 1){
-    analogWrite(light1, HIGH);
-    analogWrite(light2, HIGH);
-    analogWrite(boat1, HIGH);
-    analogWrite(boat2, HIGH);
+    digitalWrite(light1, HIGH);
+    digitalWrite(light2, HIGH);
+    digitalWrite(boat1, HIGH);
+    digitalWrite(boat2, HIGH);
   }else if(counter == 2){
-    analogWrite(light1, HIGH);
+    digitalWrite(light1, HIGH);
     delay(1500);
-    analogWrite(light2, HIGH);
+    digitalWrite(light2, HIGH);
     delay(1500);
-    analogWrite(light1, LOW);
+    digitalWrite(light1, LOW);
     delay(200);
-    analogWrite(light2, LOW);
+    digitalWrite(light2, LOW);
     delay(200);
-    analogWrite(boat1, HIGH);
+    digitalWrite(boat1, HIGH);
     delay(500);
-    analogWrite(boat1, LOW);
+    digitalWrite(boat1, LOW);
     delay(500);
-    analogWrite(boat2, HIGH);
+    digitalWrite(boat2, HIGH);
     delay(500);
-    analogWrite(boat2, LOW);
+    digitalWrite(boat2, LOW);
     delay(500);
   }else{
     counter = 0;
