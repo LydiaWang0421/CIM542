@@ -1,5 +1,5 @@
-int light1 = 2;
-int light2 = 3;
+const int light1 = 2;
+const int light2 = 3;
 const int boat1 = 4;
 const int boat2 = 5;
 
@@ -55,37 +55,47 @@ void loop() {
     Serial.println(counter);
   }
 
-  Serial.println();
+    analogWrite(light1, counter);
+    analogWrite(light2, counter);
+    analogWrite(boat1, counter);
+    analogWrite(boat2, counter);
 
-  if(counter == 0){
-    analogWrite(light1, LOW);
-    analogWrite(light2, LOW);
-    analogWrite(boat1, LOW);
-    analogWrite(boat2, LOW);
-  }else if(counter == 1){
-    analogWrite(light1, HIGH);
-    analogWrite(light2, HIGH);
-    analogWrite(boat1, HIGH);
-    analogWrite(boat2, HIGH);
-  }else if(counter == 2){
-    analogWrite(light1, HIGH);
-    delay(1500);
-    analogWrite(light2, HIGH);
-    delay(1500);
-    analogWrite(light1, LOW);
-    delay(200);
-    analogWrite(light2, LOW);
-    delay(200);
-    analogWrite(boat1, HIGH);
-    delay(500);
-    analogWrite(boat1, LOW);
-    delay(500);
-    analogWrite(boat2, HIGH);
-    delay(500);
-    analogWrite(boat2, LOW);
-    delay(500);
-  }else{
-    counter = 0;
-  }
+    if(counter >= 255){
+      flipflop = true;
+    }
+    if(counter <= 0){
+      flipflop = false;
+    }
+
+//  if(counter == 0){
+//    analogWrite(light1, LOW);
+//    analogWrite(light2, LOW);
+//    analogWrite(boat1, LOW);
+//    analogWrite(boat2, LOW);
+//  }else if(counter == 1){
+//    analogWrite(light1, HIGH);
+//    analogWrite(light2, HIGH);
+//    analogWrite(boat1, HIGH);
+//    analogWrite(boat2, HIGH);
+//  }else if(counter == 2){
+//    analogWrite(light1, HIGH);
+//    delay(1500);
+//    analogWrite(light2, HIGH);
+//    delay(1500);
+//    analogWrite(light1, LOW);
+//    delay(200);
+//    analogWrite(light2, LOW);
+//    delay(200);
+//    analogWrite(boat1, HIGH);
+//    delay(500);
+//    analogWrite(boat1, LOW);
+//    delay(500);
+//    analogWrite(boat2, HIGH);
+//    delay(500);
+//    analogWrite(boat2, LOW);
+//    delay(500);
+//  }else{
+//    counter = 0;
+//  }
 
 }
