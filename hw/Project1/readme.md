@@ -22,8 +22,8 @@
 
 
 ## Code Plan
-  When press the button, all of the four lights turn on. 
-  When press the button again, all of the four lights start blinking. 
-  When press the button again, all of the four lights turn off. 
+* When press the button, all of the four lights turn on. 
+* When press the button again, all of the four lights start blinking. 
+* When press the button again, all of the four lights turn off. 
   
 
