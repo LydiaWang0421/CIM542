@@ -1,4 +1,4 @@
-# Peaceful Sea View
+# Peaceful Sea Vibe
 
   This project is to show a peaceful sea view. It contains two beacons and a small boat.
 
@@ -10,4 +10,13 @@
 ## Equipment
 * Arduino Uno
 * 4 LEDs
-* Cricut
+* Cricut:
+  1 Squar Box (as the sea), 
+  2 Polygonal-based Pyramid (as the white walls of the beacons), 
+  2 Cones (as the windows of the beacons), 
+  2 Icosahedron (as the lights on the boat),
+* A Small Hand-made Boat
+* Some Drawings (as the sea waves)
+
+## Code Plan
+
