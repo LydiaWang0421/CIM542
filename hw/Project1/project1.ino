@@ -1,11 +1,13 @@
 int light1 = 2;
 int light2 = 3;
-int boat1 = 4;
-int boat2 = 5;
+const int boat1 = 4;
+const int boat2 = 5;
 
 int pushButton = 8;
 
 int counter = 0;
+long prevMillis = 0;
+int interval = 10;
 
 boolean flipflop = false;
 boolean pressed = false;
@@ -42,22 +44,16 @@ void loop() {
     counter++;
   }
 
-    if(flipflop = false){
-    counter++;
-  }else{
-    counter--;
+  
+  if(millis() - prevMillis >= interval){
+    prevMillis = millis();
+    if(flipflop == false){
+      counter++;
+    }else{
+      counter--;
+    }
+    Serial.println(counter);
   }
-
-  if(counter >= 255){
-    flipflop = true;
-  }
-
-  if(counter <= 0){
-    flipflop = false;
-  }
-
-  Serial.print("counter");
-  Serial.print(counter);
 
   Serial.println();
 
