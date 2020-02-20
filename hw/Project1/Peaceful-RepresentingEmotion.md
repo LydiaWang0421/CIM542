@@ -29,7 +29,7 @@
   
 *  When pressing the button again, all of the four lights turn off. 
 
-*  [Code](hw/Project1/project1.ino)
+*  [Code](/hw/Project1/project1.ino)
   
 
 ## The Process
