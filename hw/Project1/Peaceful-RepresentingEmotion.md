@@ -32,7 +32,9 @@
 
 ## The Process
   When I first start doing this project, I chose the emotion "peaceful." Then, I began to think about the objects I need to include in this project. 
+  
   Listening to the Professor's suggestions, I decided to use the transparent paper outside of the lights to show the lights from the beacons. 
+  
   Then, after printing the beacons, I realized that the size of my boat was not calculated correctly. However, it was also challenging to make a much smaller boat corresponding to the actual size compared to the beacons. Also, when I was trying to connect the wires to my project, I found that the wires are too short to connect the breadboard and the paper sculpture. So, I soldered the wires and LEDs again to make it the right length. This is the thing I need to focus on next time when beginning the first draft. 
   
 ## Paper Sculpture
