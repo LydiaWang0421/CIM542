@@ -41,17 +41,17 @@
   
   
 ## Paper Sculpture
-![paper sculpture](/hw/Project1/papersculpture.jpg)
+![paper sculpture](/hw/Project1/videos/papersculpture.jpg)
 
 
 ## Light Sequence
-![light sequence](/hw/Project1/lightsequence.gif)
-[Light Sequence (long version.mov)](/hw/Project1/lightsequence.MOV)
+![light sequence](/hw/Project1/videos/lightsequence.gif)
+[Light Sequence (long version.mov)](/hw/Project1/videos/lightsequence.MOV)
 
 
 
 ## Final Video
-![final video](/hw/Project1/finalvideo.gif)
-[Final Video (long version.mov)](/hw/Project1/finalvideo.MOV)
+![final video](/hw/Project1/videos/finalvideo.gif)
+[Final Video (long version.mov)](/hw/Project1/videos/finalvideo.MOV)
   
 
