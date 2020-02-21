@@ -41,14 +41,14 @@
   
   
 ## Paper Sculpture
-![paper sculpture](hw//Project1/paper sculpture.jpg)
+![paper sculpture](/hw/Project1/papersculpture.jpg)
 
 
 ## Light Sequence
-![light sequence](/hw/Project1/light sequence.MOV)
+![light sequence](/hw/Project1/lightsequence.MOV)
 
 
 ## Final Video
-![final video](/hw/Project1/final video.MOV)
+![final video](/hw/Project1/finalvideo.MOV)
   
 
