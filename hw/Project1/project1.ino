@@ -1,4 +1,4 @@
- int pushButton = 2;
+int pushButton = 2;
 
 int light1 = 3;
 int light2 = 4;
@@ -47,8 +47,6 @@ void loop() {
 
   Serial.println(); 
   
-  
-
 //    analogWrite(light1, counter);
 //    analogWrite(light2, counter);
 //    analogWrite(boat1, counter);
@@ -74,9 +72,6 @@ void loop() {
   }else if(counter == 2){
     digitalWrite(light1, HIGH);
     delay(1500); 
-
-
-    
     digitalWrite(light2, HIGH);
     delay(1500);
     digitalWrite(light1, LOW);
