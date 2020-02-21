@@ -39,12 +39,16 @@
   
   Then, after printing the beacons, I realized that the size of my boat was not calculated correctly. However, it was also challenging to make a much smaller boat corresponding to the actual size compared to the beacons. Also, when I was trying to connect the wires to my project, I found that the wires are too short to connect the breadboard and the paper sculpture. So, I soldered the wires and LEDs again to make it the right length. This is the thing I need to focus on next time when beginning the first draft. 
   
+  
 ## Paper Sculpture
+![paper sculpture](hw//Project1/paper sculpture.jpg)
 
 
 ## Light Sequence
+![light sequence](/hw/Project1/light sequence.MOV)
 
 
 ## Final Video
+![final video](/hw/Project1/final video.MOV)
   
 
