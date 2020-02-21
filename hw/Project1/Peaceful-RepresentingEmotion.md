@@ -46,12 +46,12 @@
 
 ## Light Sequence
 ![light sequence](/hw/Project1/lightsequence.gif)
-[light sequence (long version.mov)](/hw/Project1/lightsequence.MOV)
+[Light Sequence (long version.mov)](/hw/Project1/lightsequence.MOV)
 
 
 
 ## Final Video
 ![final video](/hw/Project1/finalvideo.gif)
-[final video (long version.mov)](/hw/Project1/finalvideo.MOV)
+[Final Video (long version.mov)](/hw/Project1/finalvideo.MOV)
   
 
