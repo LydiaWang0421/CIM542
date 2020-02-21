@@ -45,7 +45,7 @@
 
 
 ## Light Sequence
-![breadboard](/hw/Project1/videos/breadboard.PNG)
+![breadboard](/hw/Project1/videos/breadboard.JPG)
 ![light sequence](/hw/Project1/videos/lightsequence.gif)
 [Light Sequence (long version.mov)](/hw/Project1/videos/lightsequence.MOV)
 
