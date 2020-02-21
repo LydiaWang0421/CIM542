@@ -45,10 +45,13 @@
 
 
 ## Light Sequence
-![light sequence](/hw/Project1/lightsequencecopy.mp4)
+![light sequence](/hw/Project1/lightsequence.gif)
+[light sequence](/hw/Project1/lightsequence.MOV)
+
 
 
 ## Final Video
-![final video](/hw/Project1/finalvideo.MOV)
+![final video](/hw/Project1/finalvideo.gif)
+[final video](/hw/Project1/finalvideo.MOV)
   
 
