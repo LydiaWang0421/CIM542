@@ -45,7 +45,7 @@
 
 
 ## Light Sequence
-![light sequence](/hw/Project1/lightsequencecopy.mp4)
+![light sequence](/hw/Project1/lightsequencecopy.gif)
 
 
 ## Final Video
