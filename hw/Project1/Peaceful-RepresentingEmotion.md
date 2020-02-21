@@ -47,6 +47,7 @@
 ## Light Sequence
 ![breadboard](/hw/Project1/videos/breadboard.PNG)
 ![light sequence](/hw/Project1/videos/lightsequence.gif)
+[Light Sequence (long version.mov)](/hw/Project1/videos/lightsequence.MOV)
 
 
 ## Final Video
