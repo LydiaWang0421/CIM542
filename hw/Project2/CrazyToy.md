@@ -36,23 +36,14 @@ Tinkercad - 3D Design
 * When the sound reaches a certain amount, the users can notice the changes in the LEDs. The LEDs would be brighter when the sound is louder. 
 
 * [Code](/hw/Project2/project2.ino)
-  
-
-## The Process
-  
-  
-  
-## Paper Sculpture
-![paper sculpture](/hw/Project1/videos/papersculpture.jpg)
 
 
-## Light Sequence
-![breadboard](/hw/Project1/videos/breadboard.jpg)
+## Physical Interaction
 ![light sequence](/hw/Project1/videos/lightsequence.gif)
 [Light Sequence (long version.mov)](/hw/Project1/videos/lightsequence.MOV)
 
 
-## Final Video
+## 3D Designed Part
 ![final video](/hw/Project1/videos/finalvideo.gif)
 [Final Video (long version.mov)](/hw/Project1/videos/finalvideo.MOV)
   
