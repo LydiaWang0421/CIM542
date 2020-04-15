@@ -5,7 +5,7 @@
 
 ## Why This Project
   The purpose of this project is to create a red Crazy Toy for anyone to play with. 
-  This is a sound-control toy with LEDs blinking from eyes and mouth, so the users can make some noise to see the changes of the LEDs. This shows how the sound react with children's voice interactions. 
+  This is a sound-control toy with LEDs blinking from eyes and mouth, so the users can make some noise to see the changes of the LEDs. This shows how the sound reacts with children's voice interactions. 
 
 
 ## Equipment
@@ -33,7 +33,7 @@ Tinkercad - 3D Design
 
 * The users can create any kind of noise, like clapping the hand, shouting out loud, knocking the desk, and so on, to make the toy becomes alive. 
 
-* When the sound reaches a certain amount, the users can notice the changes of the LEDs. The louder the sound, the brighter the LEDs. 
+* When the sound reaches a certain amount, the users can notice the changes in the LEDs. The LEDs would be brighter when the sound is louder. 
 
 * [Code](/hw/Project2/project2.ino)
   
