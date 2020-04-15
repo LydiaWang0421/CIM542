@@ -9,15 +9,15 @@
 
 
 ## Equipment
-* Tinkercad - Circuits
- ** Arduino Uno
- ** 3 LEDs
- ** a button
- ** a potentiometer
-* Tinkercad - 3D Design
- ** a cylinder
- ** 2 eyes
- ** 1 mouth
+Tinkercad - Circuits
+ * Arduino Uno
+ * 3 LEDs
+ * a button
+ * a potentiometer
+Tinkercad - 3D Design
+ * a cylinder
+ * 2 eyes
+ * 1 mouth
  
 
 ## Input and Output
