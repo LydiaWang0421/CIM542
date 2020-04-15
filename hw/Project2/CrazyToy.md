@@ -1,6 +1,6 @@
 # Crazy Toy
 
-  This project is to create a crazy toy with LEDs. 
+  This project is to create a Crazy Toy with LEDs. 
 
 
 ## Why This Project
@@ -10,14 +10,14 @@
 
 ## Equipment
 * Tinkercad - Circuits
- * Arduino Uno
- * 3 LEDs
- * a button
- * a potentiometer
+ ** Arduino Uno
+ ** 3 LEDs
+ ** a button
+ ** a potentiometer
 * Tinkercad - 3D Design
- * a cylinder
- * 2 eyes
- * 1 mouth
+ ** a cylinder
+ ** 2 eyes
+ ** 1 mouth
  
 
 ## Input and Output
