@@ -40,7 +40,7 @@ Tinkercad - 3D Design
 
 ## Physical Interaction
 ![Breadboard](/hw/Project2/)
-[Interaction](/hw/Project2)
+![Interaction](/hw/Project2)
 
 
 ## 3D Designed Part
