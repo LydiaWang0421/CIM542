@@ -39,12 +39,11 @@ Tinkercad - 3D Design
 
 
 ## Physical Interaction
-![light sequence](/hw/Project1/videos/lightsequence.gif)
-[Light Sequence (long version.mov)](/hw/Project1/videos/lightsequence.MOV)
+![Breadboard](/hw/Project2/)
+[Interaction](/hw/Project2)
 
 
 ## 3D Designed Part
-![final video](/hw/Project1/videos/finalvideo.gif)
-[Final Video (long version.mov)](/hw/Project1/videos/finalvideo.MOV)
+![3D Part](/hw/Project2)
   
 
