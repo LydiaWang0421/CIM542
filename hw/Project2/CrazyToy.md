@@ -18,7 +18,8 @@ Tinkercad - Circuits
 Tinkercad - 3D Design
  * a cylinder
  * 2 eyes
- * 1 mouth
+ * a mouth
+ * a hat
  
 
 ## Input and Output
@@ -39,11 +40,15 @@ Tinkercad - 3D Design
 
 
 ## Physical Interaction
-![Breadboard](/hw/Project2/)
-![Interaction](/hw/Project2)
+![Breadboard](/hw/Project2/videos/breadboard.png)
+![Interactiongif](/hw/Project2/videos/light.gif)
+[Full Light Sequence Video](/hw/Project2/videos/lightsequence.MOV)
 
 
 ## 3D Designed Part
-![3D Part](/hw/Project2)
+* This is the body of the toy: 
+  ![3D Part1](/hw/Project2/videos/body)
+* This is the face of the toy: 
+  ![3D Part1](/hw/Project2/videos/face)
   
 
