@@ -64,31 +64,44 @@ void loop() {
   Serial.print(" potRead: ");
   Serial.println(potRead);
   
-  if(counter > 1){
-    if(mappedValue > 31 && mappedValue < 1000){
+  if(counter >= 1){
+    if(mappedValue >= 31 && mappedValue < 1000){
+      digitalWrite(ledeye1, HIGH);
+      digitalWrite(ledeye2, HIGH);
+      digitalWrite(ledmouth, LOW); 
+    }else if(mappedValue > 1000 && mappedValue < 2500){
       digitalWrite(ledeye1, LOW);
       digitalWrite(ledeye2, LOW);
-    }else if(mappedValue > 1000 && mappedValue < 2500){
+      digitalWrite(ledmouth, LOW);
+      delay(200);
       digitalWrite(ledeye1, HIGH);
       digitalWrite(ledeye2, HIGH);
-      digitalWrite(ledmouth, LOW);   
-    }else if(mappedValue > 2500 && mappedValue < 3000){
+      digitalWrite(ledmouth, LOW);
+      delay(200);
+    }else if(mappedValue > 2500 && mappedValue < 3500){
+      digitalWrite(ledeye1, LOW);
+      digitalWrite(ledeye2, LOW);
+      digitalWrite(ledmouth, LOW);
+      delay(200);
       digitalWrite(ledeye1, HIGH);
       digitalWrite(ledeye2, HIGH);
       digitalWrite(ledmouth, HIGH);
-    }else if(mappedValue > 3000 && mappedValue < 4978){
-      digitalWrite(ledeye1, HIGH);
       delay(200);
+    }else if(mappedValue > 3500 && mappedValue < 4978){
+      digitalWrite(ledeye1, LOW);
+      digitalWrite(ledeye2, LOW);
+      digitalWrite(ledmouth, LOW);
+      delay(200);
+      digitalWrite(ledeye1, HIGH);
       digitalWrite(ledeye2, HIGH);
       delay(200);
       digitalWrite(ledmouth, HIGH);
       delay(200);
       digitalWrite(ledeye1, HIGH);
-      delay(200);
       digitalWrite(ledeye2, HIGH);
       delay(200);
       digitalWrite(ledmouth, HIGH);
-      delay(200);
+       delay(200);
     }
   }
   
