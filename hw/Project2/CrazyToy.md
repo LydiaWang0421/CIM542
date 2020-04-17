@@ -42,7 +42,7 @@ Tinkercad - 3D Design
 ## Physical Interaction
 ![Breadboard](/hw/Project2/videos/breadboard.png)
 ![Interactiongif](/hw/Project2/videos/light.gif)
-![Interaction](/hw/Project2/videos/lightsequence.MOV)
+[Interaction](/hw/Project2/videos/lightsequence.MOV)
 
 
 ## 3D Designed Part
