@@ -42,10 +42,13 @@ Tinkercad - 3D Design
 ## Physical Interaction
 ![Breadboard](/hw/Project2/videos/breadboard.png)
 ![Interactiongif](/hw/Project2/videos/light.gif)
-[Interaction](/hw/Project2/videos/lightsequence.MOV)
+[Full Light Sequence Video](/hw/Project2/videos/lightsequence.MOV)
 
 
 ## 3D Designed Part
-![3D Part](/hw/Project2/videos/)
+* This is the body of the toy: 
+  ![3D Part1](/hw/Project2/videos/body)
+* This is the face of the toy: 
+  ![3D Part1](/hw/Project2/videos/face)
   
 
