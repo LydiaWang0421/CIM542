@@ -47,8 +47,8 @@ Tinkercad - 3D Design
 
 ## 3D Designed Part
 * This is the body of the toy: 
-  ![3D Part1](/hw/Project2/videos/body)
+  ![3D Part1](/hw/Project2/videos/body.png)
 * This is the face of the toy: 
-  ![3D Part1](/hw/Project2/videos/face)
+  ![3D Part2](/hw/Project2/videos/face.png)
   
 
