@@ -49,6 +49,8 @@ Tinkercad - 3D Design
 
 
 ## 3D Designed Part
+* Toy Sketch: 
+  ![Toy Sketch](/hw/Project2/videos/ToyDesign.png)
 * This is the body of the toy: 
   ![3D Part1](/hw/Project2/videos/body.png)
 * This is the face of the toy: 
