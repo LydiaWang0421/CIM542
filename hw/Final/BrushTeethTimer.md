@@ -1,6 +1,6 @@
-# Crazy Toy
+# Brush Teeth Timer
 
-  This project is to create a Crazy Toy with LEDs. 
+  This project is to create a Brush Teeth Timer with LEDs. 
 
 
 ## Why This Project
@@ -11,22 +11,22 @@
 ## Equipment
 Tinkercad - Circuits
  * Arduino Uno
- * 3 LEDs
+ * 4 LEDs
  * a button
- * a potentiometer
- 
-Onshape
- * the body of the toy
+
  
 Tinkercad - 3D Design
- * a cylinder
- * 2 eyes
- * a mouth
- * a hat
+ * a box - base
+ * a cylinder - clock face
+ * a ring - clock case
+ * a round roof - clock face
+ * 4 cylinders - clock hands
+ * 3 cones - decoration(each represents 1/3 for 2 minutes)
+ * 3 text: Brush Teeth Timer, START, STOP
  
 
 ## Input and Output
-* Input: sound (potentiometer)
+* Input: button
 * Output: LEDs
 
 
@@ -39,21 +39,21 @@ Tinkercad - 3D Design
 
 * When the sound reaches a certain amount, the users can notice the changes in the LEDs. The LEDs would be brighter when the sound is louder. 
 
-* [Code](/hw/Project2/project2.ino)
+* [Code](/hw/Final/final.ino)
 
 
 ## Physical Interaction
-![Breadboard](/hw/Project2/videos/breadboard.png)
-![Interactiongif](/hw/Project2/videos/light.gif)
-[Full Light Sequence Video](/hw/Project2/videos/lightsequence.MOV)
+![Breadboard](/hw/Final/videos/breadboard.png)
+![Interactiongif](/hw/Final/videos/)
+[Full Light Sequence Video](/hw/Final/videos/)
 
 
 ## 3D Designed Part
 * Toy Sketch: 
-  ![Toy Sketch](/hw/Project2/videos/ToyDesign.png)
+  ![Toy Sketch](/hw/Final/videos/)
 * This is the body of the toy: 
-  ![3D Part1](/hw/Project2/videos/body.png)
+  ![3D Part1](/hw/Final/videos/)
 * This is the face of the toy: 
-  ![3D Part2](/hw/Project2/videos/face.png)
+  ![3D Part2](/hw/Final/videos/)
   
 
