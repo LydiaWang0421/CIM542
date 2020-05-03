@@ -101,7 +101,7 @@ void loop() {
       digitalWrite(ledeye2, HIGH);
       delay(200);
       digitalWrite(ledmouth, HIGH);
-       delay(200);
+      delay(200);
     }
   }
   
