@@ -4,8 +4,8 @@
 
 
 ## Why This Project
-  The purpose of this project is to create a red Crazy Toy for anyone to play with. 
-  This is a sound-control toy with LEDs blinking from eyes and mouth, so the users can make some noise to see the changes of the LEDs. This shows how the sound reacts with the users' voice interactions. 
+  The purpose of this project is to create a Brush Teeth Timer for users to make sure they spend enough time brushing their teeth every day. 
+  The users can simply click the button each time before starting brushing the teeth, and this Brush Teeth Timer would give the user a total 3 minutes for all the steps of brushing the teeth. 
 
 
 ## Equipment
@@ -31,13 +31,20 @@ Tinkercad - 3D Design
 
 
 ## Code Plan
-* When clicking the button behind the toy, the toy will turn on and start detecting sounds. 
+* When clicking the button at the top of the clock, the timer would start counting
 
-* The potentiometer is used to emulate the amount of sound. 
+* In the meantime, the LED near the "START" text will turn on
 
-* The users can create any kind of noise, like clapping the hand, shouting out loud, knocking the desk, and so on, to make the toy becomes alive. 
+* After 30 seconds, which is for the user to put toothpaste to the toothbrush, the second LED will turn on
 
-* When the sound reaches a certain amount, the users can notice the changes in the LEDs. The LEDs would be brighter when the sound is louder. 
+* The next 2 minutes is for the user to brush his/her teeth
+
+* After that, the third LED will turn on
+
+* Then, the last 30 seconds is for mouth washing
+
+* After that, the last LED near the "STOP" text will turn on
+
 
 * [Code](/hw/Final/final.ino)
 
@@ -49,11 +56,9 @@ Tinkercad - 3D Design
 
 
 ## 3D Designed Part
-* Toy Sketch: 
+* Project Sketch: 
   ![Toy Sketch](/hw/Final/videos/)
-* This is the body of the toy: 
-  ![3D Part1](/hw/Final/videos/)
-* This is the face of the toy: 
-  ![3D Part2](/hw/Final/videos/)
+* 3D Brush Teeth Timer 
+  ![3D Part](/hw/Final/videos/)
   
 
