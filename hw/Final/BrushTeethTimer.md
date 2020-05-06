@@ -1,59 +1,64 @@
-# Crazy Toy
+# Brush Teeth Timer
 
-  This project is to create a Crazy Toy with LEDs. 
+  This project is to create a Brush Teeth Timer with LEDs. 
 
 
 ## Why This Project
-  The purpose of this project is to create a red Crazy Toy for anyone to play with. 
-  This is a sound-control toy with LEDs blinking from eyes and mouth, so the users can make some noise to see the changes of the LEDs. This shows how the sound reacts with the users' voice interactions. 
+  The purpose of this project is to create a Brush Teeth Timer for users to make sure they spend enough time brushing their teeth every day. 
+  The users can simply click the button each time before starting brushing the teeth, and this Brush Teeth Timer would give the user a total 3 minutes for all the steps of brushing the teeth. 
 
 
 ## Equipment
 Tinkercad - Circuits
  * Arduino Uno
- * 3 LEDs
+ * 4 LEDs
  * a button
- * a potentiometer
- 
-Onshape
- * the body of the toy
+
  
 Tinkercad - 3D Design
- * a cylinder
- * 2 eyes
- * a mouth
- * a hat
+ * a box - base
+ * a cylinder - clock face
+ * a ring - clock case
+ * a round roof - clock face
+ * 4 cylinders - clock hands
+ * 3 cones - decoration(each represents 1/3 for 2 minutes)
+ * 3 text: Brush Teeth Timer, START, STOP
  
 
 ## Input and Output
-* Input: sound (potentiometer)
+* Input: button
 * Output: LEDs
 
 
 ## Code Plan
-* When clicking the button behind the toy, the toy will turn on and start detecting sounds. 
+* When clicking the button at the top of the clock, the timer would start counting
 
-* The potentiometer is used to emulate the amount of sound. 
+* In the meantime, the LED near the "START" text will turn on
 
-* The users can create any kind of noise, like clapping the hand, shouting out loud, knocking the desk, and so on, to make the toy becomes alive. 
+* After 30 seconds, which is for the user to put toothpaste to the toothbrush, the second LED will turn on
 
-* When the sound reaches a certain amount, the users can notice the changes in the LEDs. The LEDs would be brighter when the sound is louder. 
+* The next 2 minutes is for the user to brush his/her teeth
 
-* [Code](/hw/Project2/project2.ino)
+* After that, the third LED will turn on
+
+* Then, the last 30 seconds is for mouth washing
+
+* After that, the last LED near the "STOP" text will turn on
+
+
+* [Code](/hw/Final/final.ino)
 
 
 ## Physical Interaction
-![Breadboard](/hw/Project2/videos/breadboard.png)
-![Interactiongif](/hw/Project2/videos/light.gif)
-[Full Light Sequence Video](/hw/Project2/videos/lightsequence.MOV)
+![Breadboard](/hw/Final/videos/breadboard.png)
+![Interactiongif](/hw/Final/videos/light.gif)
+[Full Light Sequence Video](/hw/Final/videos/lightsequence.MOV)
 
 
 ## 3D Designed Part
-* Toy Sketch: 
-  ![Toy Sketch](/hw/Project2/videos/ToyDesign.png)
-* This is the body of the toy: 
-  ![3D Part1](/hw/Project2/videos/body.png)
-* This is the face of the toy: 
-  ![3D Part2](/hw/Project2/videos/face.png)
+* Project Sketch: 
+  ![Robot Sketch](/hw/Final/videos/3Dsketch.png)
+* 3D Brush Teeth Timer 
+  ![3D Part](/hw/Final/videos/3Ddesign.png)
   
 
