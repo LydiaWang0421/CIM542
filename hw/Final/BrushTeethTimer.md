@@ -57,7 +57,7 @@ Tinkercad - 3D Design
 
 ## 3D Designed Part
 * Project Sketch: 
-  ![Robot Sketch](/hw/Final/videos/)
+  ![Robot Sketch](/hw/Final/videos/3Dsketch.png)
 * 3D Brush Teeth Timer 
   ![3D Part](/hw/Final/videos/3Ddesign.png)
   
