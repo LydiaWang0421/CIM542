@@ -60,15 +60,17 @@ void loop(){
     }else if(counter >= 30 && counter < 150){
       digitalWrite(ledstart, LOW);
       digitalWrite(led1, HIGH);
-      delay(200);
+      delay(80);
+      digitalWrite(led1, LOW);
+      delay(80);
       digitalWrite(led1, HIGH);
-    }else if(counter >= 150 && counter <180){
+    }else if(counter >= 150 && counter < 180){
       digitalWrite(led1, LOW);
       digitalWrite(led2, HIGH);
-    }else if(counter = 180){
+    }else if(counter >= 180 && counter < 190){
       digitalWrite(led2, LOW);
       digitalWrite(ledstop, HIGH);
-    }else(counter >= 180){
+    }else if(counter > 190){
       digitalWrite(ledstart, LOW);
       digitalWrite(led1, LOW);
       digitalWrite(led2, LOW);
