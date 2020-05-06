@@ -51,14 +51,14 @@ Tinkercad - 3D Design
 
 ## Physical Interaction
 ![Breadboard](/hw/Final/videos/breadboard.png)
-![Interactiongif](/hw/Final/videos/)
-[Full Light Sequence Video](/hw/Final/videos/)
+![Interactiongif](/hw/Final/videos/light.gif)
+[Full Light Sequence Video](/hw/Final/videos/lightsequence.MOV)
 
 
 ## 3D Designed Part
 * Project Sketch: 
-  ![Toy Sketch](/hw/Final/videos/)
+  ![Robot Sketch](/hw/Final/videos/)
 * 3D Brush Teeth Timer 
-  ![3D Part](/hw/Final/videos/)
+  ![3D Part](/hw/Final/videos/3Ddesign.png)
   
 
