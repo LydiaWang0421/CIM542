@@ -45,6 +45,8 @@ Tinkercad - 3D Design
 
 * After that, the last LED near the "STOP" text will turn on
 
+* Last, all LEDs will turn off
+
 
 * [Code](/hw/Final/final.ino)
 
